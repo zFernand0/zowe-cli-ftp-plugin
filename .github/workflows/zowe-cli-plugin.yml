@@ -104,10 +104,10 @@ jobs:
 
     - uses: zowe-actions/octorelease@master
       env:
-        GIT_COMMITTER_NAME: ${{ secrets.ZOWE_ROBOT_USER }}
-        GIT_COMMITTER_EMAIL: ${{ secrets.ZOWE_ROBOT_EMAIL }}
-        GIT_CREDENTIALS: x-access-token:${{ secrets.ZOWE_ROBOT_TOKEN }}
+        GIT_COMMITTER_NAME: zowe-robot
+        GIT_COMMITTER_EMAIL: zowe.robot@gmail.com
+        # GIT_CREDENTIALS: x-access-token:${{ secrets.ZOWE_ROBOT_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_USERNAME: ${{ secrets.ARTIFACTORY_USERNAME }}
-        NPM_PASSWORD: ${{ secrets.ARTIFACTORY_PASSWORD }}
-        NPM_EMAIL: ${{ secrets.ZOWE_ROBOT_EMAIL }}
+        # NPM_USERNAME: ${{ secrets.ARTIFACTORY_USERNAME }}
+        # NPM_PASSWORD: ${{ secrets.ARTIFACTORY_PASSWORD }}
+        # NPM_EMAIL: ${{ secrets.ZOWE_ROBOT_EMAIL }}

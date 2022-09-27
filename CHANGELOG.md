@@ -4,7 +4,7 @@ All notable changes to the z/OS FTP Plug-in for Zowe CLI will be documented in t
 
 ## Recent Changes
 
-- testing
+- testing 02
 
 ## `2.1.0`
 
